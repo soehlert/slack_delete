@@ -11,6 +11,12 @@ I decided to modify this script for a few reasons:
 2) python3 support
 3) rate limiting to follow Slack's suggestions (https://api.slack.com/docs/rate-limits)
 
+## Requirements
+
+This uses the requests library that you'll need to install (probably best done in a virtual environment)
+
+    python3 -m pip install requests
+
 ## Usage
 
     usage: slack_delete.py [-h] -t TOKEN [-d DAYS] [-c COUNT]

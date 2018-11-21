@@ -17,6 +17,8 @@ This uses the requests library that you'll need to install (probably best done i
 
     python3 -m pip install requests
 
+You will also need to know your slack token, which you can find or create at https://api.slack.com/docs/oauth-test-tokens
+
 ## Usage
 
     usage: slack_delete.py [-h] -t TOKEN [-d DAYS] [-c COUNT]
